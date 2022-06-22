@@ -1,5 +1,6 @@
 import Button from "../Button";
 import FormInput from "../FormInput";
+import LinkTo from "../link/link";
 import { newButton, TitleForm, Wrapper, WrapperForm } from "./styles";
 
 function Login() {
@@ -11,6 +12,7 @@ function Login() {
                 <FormInput type = "password" name= "Password" id="password" placeholder="*********"/>
                 <Button style={newButton} children="LOGIN" />
              </WrapperForm>
+             <LinkTo>Sign Up</LinkTo>
         </Wrapper>
     );
 }
