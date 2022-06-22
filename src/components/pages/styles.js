@@ -25,4 +25,18 @@ const TitleForm = styled.h1 `
     text-transform: capitalize;
 `;
 
-export {Wrapper, WrapperForm, TitleForm};
+const newButton = {
+    width:"100%", 
+    backgroundColor: colors.primary[300],
+    color: colors.white,
+    fontFamily: "Inter",
+    fontStyle: "normal",
+    fontWeight: "500",
+    fontSize: "14px",
+    lineHeight: "20px",
+    letterSpacing:"0.1em",
+    textTransform: "Uppercase"
+}
+
+
+export {Wrapper, WrapperForm, TitleForm,newButton};
