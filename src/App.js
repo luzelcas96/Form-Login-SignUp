@@ -1,9 +1,9 @@
-import LinkTo from "./components/link";
+import Login from "./components/pages/login";
 
 function App() {
   return (
     <>
-      <LinkTo>Sign Up</LinkTo>
+      <Login/>
     </>
   );
 }
