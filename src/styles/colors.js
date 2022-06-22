@@ -5,7 +5,7 @@ export const colors = {
       200: "#E5E7EB",
       300: "#D1D5DB",
       400: "#9CA3AF",
-      500: "#6B7280",
+      500: "#17171C",
       600: "#4B5563",
       700: "#374151",
       800: "#1F2937",
@@ -85,6 +85,9 @@ export const colors = {
     },
     blue: {
       500: "#3B82F6",
+    },
+    primary: {
+      300: "#F490B1",
     },
     black: "#171717",
     white: "#FFFFFF",
