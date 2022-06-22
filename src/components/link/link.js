@@ -9,7 +9,7 @@ const Link = styled.a`
 
 `;
 
-function LinkTo({children}) {
+function LinkTo({ children }) {
     return (
         <Link>{children}</Link>
     );

@@ -1,16 +1,6 @@
 import styled from "@emotion/styled";
 import { colors, typography } from "../../styles";
 
-const Wrapper = styled.div`
-    display: flex;
-    flex-direction: column;
-    padding: 0px 16px;
-    gap: 32px;
-    width: 768px;
-    margin: 96px auto;
-    align-items:center;
-`;
-
 const WrapperInidivdual= styled.div `
     display: flex;
     flex-direction: column;
@@ -25,19 +15,6 @@ const Label = styled.p `
     font-style: normal;
     letter-spacing: 0.125em;
     text-transform: uppercase;
-`;
-
-const TitleForm = styled.h1 `
-    color:${colors.gray[900]};
-    text-transform: capitalize;
-    ${typography.head.md};
-    font-weight: 600;
-`;
-
-const WrapperForm = styled.div`
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
 `;
 
 const IndividualInput = styled.input `
@@ -65,11 +42,8 @@ function GeneralInput({id, placeholder, type, name}) {
 }
 
 export {
-    Wrapper,
-     TitleForm, 
      GeneralInput,
      Label,
      IndividualInput,
-     WrapperForm, 
      WrapperInidivdual
-    };
+};
