@@ -1,8 +1,10 @@
+import LinkTo from "./components/link";
+
 function App() {
   return (
-    <div>
-     <h1>Hola</h1>
-    </div>
+    <>
+      <LinkTo>Sign Up</LinkTo>
+    </>
   );
 }
 
